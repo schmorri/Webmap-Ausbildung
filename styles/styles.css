@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#header-bar {
+    height: 60px;
+    width: 100%;
+    background-color: #03682a;
+}
+
+#title {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+#content {
+    width: 100%;
+    display: table;
+    height: calc(100% - 60px);
+}
+
+#map {
+    display: table-cell;
+}

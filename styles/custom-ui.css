@@ -1,0 +1,33 @@
+.leaflet-bar a:hover,
+.infobtn:hover,
+.home-btn:hover {
+    color: #ffffff;
+    background-color: #013C74;
+    border-color: #1b1f2326;
+    box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+    transition-duration: 0.1s;
+}
+
+.leaflet-bar a {
+    color: #013C74;
+}
+
+.locate {
+    padding: 5px;
+    height: 20px;
+    float: unset;
+}
+
+.locate:hover {
+    filter: brightness(900%) contrast(900%);
+}
+
+.home {
+    padding: 5px;
+    height: 20px;
+    float: unset;
+}
+
+.home:hover {
+    filter: invert(1) contrast(900%);
+}
