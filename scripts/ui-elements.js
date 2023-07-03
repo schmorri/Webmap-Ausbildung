@@ -10,3 +10,8 @@ L.control.scale({
 L.control.zoom({
     position: 'bottomright'
 }).addTo(map);
+
+const sidepanelLeft = L.control.sidepanel('mySidepanelLeft', {
+    tabsPosition: 'left',
+    startTab: 'tab-5'
+}).addTo(map);
