@@ -1,4 +1,4 @@
-let tab1 = document.getElementById("tab-1");
+let tab1 = document.getElementById("sidepanel-tab-1");
 
 tab1.innerHTML = `
     <h2>Impressum</h2>

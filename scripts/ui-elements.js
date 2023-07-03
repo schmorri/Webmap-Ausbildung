@@ -13,5 +13,5 @@ L.control.zoom({
 
 const sidepanelLeft = L.control.sidepanel('mySidepanelLeft', {
     tabsPosition: 'left',
-    startTab: 'tab-5'
+    startTab: 'tab-1'
 }).addTo(map);
